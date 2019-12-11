@@ -31,3 +31,7 @@ qbittorrent: yes
 | verify_cert | Enable or disable SSL certficate verification (default *True*)
 |  path  |  The download location  |
 | label | Assigns corresponding qBittorrent label/category|
+| add_paused | Add torrents in the paused state (default *False*)|
+| maxupspeed | Set torrent upload speed limit. Unit in kilobytes/second |
+| maxdownspeed | Set torrent download speed limit. Unit in kilobytes/second |
+| download_in_sequential_order | Enable sequential download (default *False*) |
